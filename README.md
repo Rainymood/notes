@@ -1,6 +1,6 @@
 # notes
 
-This is Chris Albon's collection of personal notes on coding, statistics, machine learning, and technical management. These notes are posted publically at https://ChrisAlbon.com. What is in this repo will not be useful to other folks.
+This is Jan Meppe's collection of personal notes on coding, statistics, machine learning, and technical management. 
 
 ## Overview
 
@@ -49,8 +49,6 @@ alias nn='cd /Users/chrisalbon/dropbox/cra/projects/notes && git pull && hugo &&
 
 Note that when you run `nn` you might be prompted for an application password. You can get that / generate that from GitHub.com in account settings.
 
-## To Do
+## Acknowledgement
 
-- Fix Github issues
-- Hunt for minor errors
-- Refactor make.ipynb to make it .py and cleaner
+* Forked from [Chris Albon's amazing website](https://github.com/chrisalbon/notes)
