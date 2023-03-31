@@ -6,33 +6,38 @@
 Code review checklist
 =====================
 
+Purpose
+
   The primary purpose of code review is to make sure **that the overall code health
-  of Google's code base is improving over time.** All of the tools and processes of
+  of the code base is improving over time.** All of the tools and processes of
   code review are designed to this end. In order to accomplish this, a series of
   trade-offs have to be balanced.
 
-Requirements
+Joy
 
 * |checkbox| Does the code spark joy?
+
+Requirements
+
 * |checkbox| Does the code satisfy the requirements?
 
 Design
 
-* |checkbox| Does the code follow the Single Responsibility Principle?
-* |checkbox| Is data IO pushed to the boundaries
+* |checkbox| Does the code follow the Single Responsibility Principle (SRP)?
+* |checkbox| Is data (input/output) pushed to the boundaries
 * |checkbox| Is dependency injection (DI) followed? 
 
 Maintainability
 
 * |checkbox| Is the code easy to read & follow?
-* |checkbox| Are the classes/variable names clear and descriptive?
-* |checkbox| Is there code duplication (DRY)?
+* |checkbox| Are the variable/class names clear and don't lie?
+* |checkbox| Is there code duplication? 
 
 Testing
 
-* |checkbox| Is new logic unit tested?
-* |checkbox| Are all edge cases tested?
 * |checkbox| Is there an integration test for a new use case? 
+* |checkbox| Is all new logic unit tested?
+* |checkbox| Are all edge cases tested?
 
 Documentation
 
@@ -40,5 +45,5 @@ Documentation
 
 Code smells (optional)
 
-* |checkbox| Is writing done by a `Writer`? Avoid `Obj.save()`. Apply DIP.
-* |checkbox| Is the code clear of paths? Avoid passing paths. Apply IO on the boundary.
+* |checkbox| No `thing.save()`. Prefer using a `Saver`. Apply DIP.
+* |checkbox| No paths being passed in. Prefer IO on the boundary. Apply DIP. 
