@@ -1,0 +1,9 @@
+.. |checkbox| raw:: html
+
+    <input type="checkbox">
+
+
+checkbox
+========
+
+* |checkbox| click to check

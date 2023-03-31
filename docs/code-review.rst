@@ -1,0 +1,44 @@
+.. |checkbox| raw:: html
+
+    <input type="checkbox">
+
+
+Code review checklist
+=====================
+
+  The primary purpose of code review is to make sure **that the overall code health
+  of Google's code base is improving over time.** All of the tools and processes of
+  code review are designed to this end. In order to accomplish this, a series of
+  trade-offs have to be balanced.
+
+Requirements
+
+* |checkbox| Does the code spark joy?
+* |checkbox| Does the code satisfy the requirements?
+
+Design
+
+* |checkbox| Does the code follow the Single Responsibility Principle?
+* |checkbox| Is data IO pushed to the boundaries
+* |checkbox| Is dependency injection (DI) followed? 
+
+Maintainability
+
+* |checkbox| Is the code easy to read & follow?
+* |checkbox| Are the classes/variable names clear and descriptive?
+* |checkbox| Is there code duplication (DRY)?
+
+Testing
+
+* |checkbox| Is new logic unit tested?
+* |checkbox| Are all edge cases tested?
+* |checkbox| Is there an integration test for a new use case? 
+
+Documentation
+
+* |checkbox| Is the `README` updated?
+
+Code smells (optional)
+
+* |checkbox| Is writing done by a `Writer`? Avoid `Obj.save()`. Apply DIP.
+* |checkbox| Is the code clear of paths? Avoid passing paths. Apply IO on the boundary.

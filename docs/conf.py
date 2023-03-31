@@ -15,6 +15,7 @@ author = 'Jan Meppe'
 
 extensions = [
     'sphinx_rtd_theme',
+    'nbsphinx',
 ]
 
 templates_path = ['_templates']

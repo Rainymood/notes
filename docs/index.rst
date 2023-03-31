@@ -10,6 +10,9 @@ Welcome to notes's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   hello
+   code-review
+
 
 
 Indices and tables
