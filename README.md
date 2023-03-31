@@ -3,9 +3,8 @@
 ## Setup
 
 ```
-conda create --name notes -y
+conda create --name notes python=3.7 -y
 conda activate notes
-conda install ipykernel
 pip install -r requirements.txt
 ```
 
