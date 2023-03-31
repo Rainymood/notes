@@ -9,6 +9,11 @@ conda install ipykernel
 pip install -r requirements.txt
 ```
 
+Build requirements with this see [this](https://stackoverflow.com/a/62886215) link
+
+```
+pip list --format=freeze > requirements.txt
+```
 ## Usage (windows)
 
 Build the docs
