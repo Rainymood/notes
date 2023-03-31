@@ -13,6 +13,8 @@ Build requirements with this see [this](https://stackoverflow.com/a/62886215) li
 ```
 pip list --format=freeze > requirements.txt
 ```
+
+Some packages are windows only see [this link](https://github.com/mhammond/pywin32/issues/1739)
 ## Usage (windows)
 
 Build the docs
